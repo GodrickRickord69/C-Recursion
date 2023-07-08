@@ -11,7 +11,6 @@ Console.WriteLine("Введите число N: ");
 int N = int.Parse(Console.ReadLine()!);
 
 
-
 Console.WriteLine($"{GetSumNumbers(M, N)} ");
 
 
