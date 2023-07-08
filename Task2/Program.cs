@@ -25,7 +25,4 @@ int GetSumNumbers(int NumbM, int NumbN)
     {
         return NumbM + GetSumNumbers(NumbM + 1, NumbN);
     }
-
-    // SumNumbers = SumNumbers + (NumbM++);
-    // GetSumNumbers(NumbM, NumbN, SumNumbers);
 }
